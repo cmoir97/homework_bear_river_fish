@@ -7,6 +7,7 @@ class RiverTest < MiniTest::Test
 
   def setup()
     @river = River.new("Dee")
+    @fish1 = Fish.new("Daniel")
 
   end
 

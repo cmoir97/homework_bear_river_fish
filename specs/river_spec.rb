@@ -2,6 +2,7 @@ require("minitest/autorun")
 require("minitest/rg")
 require_relative("../River")
 require_relative("../Fish")
+require_relative("../Bear")
 
 class RiverTest < MiniTest::Test
 

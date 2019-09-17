@@ -19,7 +19,10 @@ class RiverTest < MiniTest::Test
     assert_equal(0, @river.river_population_count())
   end
 
-
+def test_add_fish_to_river()
+  @river.add_fish_to_river(@fish1)
+  assert_equal(1, @river.river_population_count())
+end
 
 
 

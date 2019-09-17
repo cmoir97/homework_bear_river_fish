@@ -10,6 +10,8 @@ def river_population_count()
   @population.length()
 end
 
-
+def add_fish_to_river(fish)
+  @population.push(fish)
+end
 
 end

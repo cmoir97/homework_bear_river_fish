@@ -11,9 +11,14 @@ class RiverTest < MiniTest::Test
 
   end
 
-def test_print_river_name()
-  assert_equal("Dee", @river.river_name())
-end
+  def test_print_river_name()
+    assert_equal("Dee", @river.river_name())
+  end
+
+  def test_river_population_count()
+    assert_equal(0, @river.river_population_count())
+  end
+
 
 
 

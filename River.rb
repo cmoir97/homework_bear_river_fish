@@ -14,4 +14,7 @@ def add_fish_to_river(fish)
   @population.push(fish)
 end
 
+def remove_fish_from_river(fish)
+  @population.delete(fish)
+end
 end

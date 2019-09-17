@@ -25,6 +25,10 @@ def test_add_fish_to_river()
   assert_equal(1, @river.river_population_count())
 end
 
-
+def test_remove_fish_from_river()
+  @river.add_fish_to_river(@fish1)
+  @river.remove_fish_from_river(@fish1)
+  assert_equal(0, @river.river_population_count())
+end
 
 end

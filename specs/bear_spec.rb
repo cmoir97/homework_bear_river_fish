@@ -23,4 +23,10 @@ def test_bear_catches_fish()
   assert_equal(1, @bear.food_count())
 end
 
+def test_roar()
+  assert_equal("Roar!!", @bear.roar())
+end
+
+
+
 end

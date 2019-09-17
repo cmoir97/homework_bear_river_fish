@@ -14,4 +14,10 @@ def food_count()
   return @stomach.length()
 end
 
+def roar()
+  return "Roar!!"
+end
+
+
+
 end
